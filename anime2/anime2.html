@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIME</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        font-family: ZCOOL KuaiLe;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-dark
+        bg-dark
+        border border
+        fixed-top
+        
+      "
+    >
+
+      <div class="container-fluid">
+          <li class="nav-item ">
+        <a class="navbar-brand   " href="anime2.html">Home</a>
+    </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="news.html">News</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="amv.html"> AMV </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="manga.html">Manga</a>
+            </li>
+           
+            <li class="nav-item dropdown bg-dark">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.comicsense.in/"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Merchandise
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.comicsense.in/product-category/home-office/bobble-heads/">Bobbleheads</a></li>
+                <li><a class="dropdown-item" href="https://www.comicsense.in/product-category/apparel/">Clothes</a></li>
+
+                <li><a class="dropdown-item" href="https://www.comicsense.in/product-category/home-office/figurines/">Action Figures</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-secondary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button "
+          class="btn btn-outline-secondary mx-2"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Login
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Password</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="1"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br><br><br>
+    <div class="container ">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/h1.jpg"
+              class="d-block w-100"
+              alt="..."
+              height="400"
+              width="400"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a
+                href="https://animixplay.to/anime/34566/Boruto__Naruto_Next_Generations"
+                class="btn btn-primary"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Boruto</a
+              >
+              <a
+                href="https://animixplay.to/anime/41587/Boku_no_Hero_Academia_5th_Season"
+                class="btn btn-danger"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >My Hero Academy</a
+              >
+              <a
+                href="https://animixplay.to/anime/269/Bleach"
+                class="btn btn-success"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Bleach</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/fl.jpg"
+              class="d-block w-100"
+              alt="..."
+              height="400"
+              width="400"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a
+                href="https://animixplay.to/anime/20/Naruto"
+                class="btn btn-primary"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Naruto</a
+              >
+              <a
+                href="https://animixplay.to/anime/20583/Haikyuu"
+                class="btn btn-danger"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Haikyuu</a
+              >
+              <a
+                href="https://animixplay.to/anime/16498/Shingeki_no_Kyojin"
+                class="btn btn-success"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Attack On Titan</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/casa.jpg"
+              class="d-block w-100"
+              alt="..."
+              height="400"
+              width="400"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a
+                href="#"
+                class="btn btn-primary"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Jujutsu Kaisen</a
+              >
+              <a
+                href="https://animixplay.to/anime/34572/Black_Clover"
+                class="btn btn-danger"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Black Clover</a
+              >
+              <a
+                href="https://animixplay.to/anime/24415/Kuroko_no_Basket_3rd_Season"
+                class="btn btn-success"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Kuroko No Basket</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row mb-2 my-4">
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+             
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static bg-info  ">
+              <h3 class="mb-0  ">Haikyuu</h3>
+
+              <p class="card-text mb-auto">
+                Haikyu!! is a Japanese manga series written and illustrated by
+                Haruichi Furudate. The story follows Shōyō Hinata, a boy
+                determined to become a great volleyball player despite his small
+                stature
+              </p>
+              <a
+                href="https://animixplay.to/anime/20583/Haikyuu"
+                class="btn btn-outline-danger  "
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Watch Now</a
+              >
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="images/hai.jpg" alt="" height="200" width="200" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static bg-danger">
+              <h3 class="mb-0">Boruto</h3>
+
+              <p class="mb-auto ">
+                Boruto: Naruto Next Generations is a Japanese manga series
+                written by Ukyō Kodachi and Masashi Kishimoto, and illustrated
+                by Mikio Ikemoto
+              </p>
+              <a
+                href="https://animixplay.to/anime/20/Naruto"
+                class="btn btn-outline-primary"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Watch Now</a
+              >
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="images/borutoo.jpg" height="200" height="200" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row mb-2 my-4">
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static bg-success">
+              <h3 class="mb-0">My Hero Academy</h3>
+
+              <p class="card-text mb-auto">
+                watch now My Hero Academia is a Japanese superhero manga series
+                written and illustrated by Kōhei Horikoshi. The story follows
+                Izuku Midoriya, a boy born without superpowers in a world where
+                they have become commonplace, but who still dreams of becoming a
+                superhero himself.
+              </p>
+              <a
+                href="https://animixplay.to/anime/41587/Boku_no_Hero_Academia_5th_Season"
+                class="btn btn-outline-warning"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Watch Now</a
+              >
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="images/mha1.jpg" alt="" height="200" width="200" >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+             
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static bg-warning">
+              <h3 class="mb-0">Bleach</h3>
+
+              <p class="mb-auto">
+                Ichigo Kurosaki never asked for the ability to see ghosts -- he
+                was born with the gift. When his family is attacked by a Hollow
+                -- a malevolent lost soul -- Ichigo becomes a Soul Reaper,
+                dedicating his life to protecting the innocent and helping the
+                tortured spirits themselves find peace.
+              </p>
+              <a
+                href="https://animixplay.to/anime/269/Bleach"
+                class="btn btn-outline-success"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >Watch Now</a
+              >
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="images/bleach.jpg" height="200" height="200" alt="" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2 my-4">
+          <div class="col-md-6">
+            <div
+              class="
+                row
+                g-0
+                border
+                rounded
+                overflow-hidden
+                flex-md-row
+                mb-4
+                shadow-sm
+                h-md-250
+                position-relative
+               
+              "
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-info">
+                <h3 class="mb-0">Demon Slayer</h3>
+  
+                <p class="card-text mb-auto">
+                    A boy raised by boars, who wears a boar's head, boards the Infinity Train on a new mission with the Flame Pillar along with another boy who reveals his true power when he sleeps. Their mission is to defeat a demon who has been tormenting people and killing the demon slayers who oppose it.
+                </p>
+                <a
+                  href="https://animixplay.to/v1/kimetsu-no-yaiba"
+                  class="btn btn-outline-danger"
+                  tabindex="-1"
+                  role="button"
+                  aria-disabled="true"
+                  >Watch Now</a
+                >
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="images/demon.jpg" alt="" height="200" width="200" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="
+                row
+                g-0
+                border
+                rounded
+                overflow-hidden
+                flex-md-row
+                mb-4
+                shadow-sm
+                h-md-250
+                position-relative
+               
+              "
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-danger">
+                <h3 class="mb-0">One Piece</h3>
+  
+                <p class="mb-auto ">
+                    Monkey D. Luffy wants to become the King of all pirates. Along his quest he meets: a skilled swordsman named Roronoa Zolo; Nami, a greedy thief who has a knack for navigation; Usopp, a great liar who has an affinity for inventing; Sanji, a warrior cook; Chopper, a sentient deer who is also a skilled
+                </p>
+                <a
+                  href="https://animixplay.to/v1/one-piece"
+                  class="btn btn-outline-primary"
+                  tabindex="-1"
+                  role="button"
+                  aria-disabled="true"
+                  >Watch Now</a
+                >
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="images/one.jfif" height="200" height="200" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-4">
+        <div class="row mb-2 my-4">
+          <div class="col-md-6">
+            <div
+              class="
+                row
+                g-0
+                border
+                rounded
+                overflow-hidden
+                flex-md-row
+                mb-4
+                shadow-sm
+                h-md-250
+                position-relative
+              "
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-success">
+                <h3 class="mb-0">Jujutsu Kaisen</h3>
+  
+                <p class="card-text mb-auto">
+                    Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen,
+                </p>
+                <a
+                  href="https://animixplay.to/anime/40748/Jujutsu_Kaisen_TV"
+                  class="btn btn-outline-warning"
+                  tabindex="-1"
+                  role="button"
+                  aria-disabled="true"
+                  >Watch Now</a
+                >
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="images/j.jpg" alt="" height="200" width="200" >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="
+                row
+                g-0
+                border
+                rounded
+                overflow-hidden
+                flex-md-row
+                mb-4
+                shadow-sm
+                h-md-250
+                position-relative
+              "
+            >
+              <div class="col p-4 d-flex flex-column position-static bg-warning">
+                <h3 class="mb-0">Tokyo Revengers</h3>
+  
+                <p class="mb-auto">
+                    Takemichi Hanagaki’s second year of middle school was the highest point in his life. He had respect, a gang of friends he could count on, and even a girlfriend. But that was twelve years ago. Today, he’s a nobody: a washed-up nonentity made fun of by children and always forced to apologize to his younger boss. A sudden news report on the Tokyo Manji Gang’s cruel murder of the only girlfriend he ever had alongside her brother only adds insult to injury. Half a second before a train ends his pitiful life for good, Takemichi flashes back to that same day twelve years ago, when he was still dating Hinata Tachibana. After being forced to relive the very same day that began his downward spiral, Takemichi meets Hinata’s younger brother. 
+                </p>
+                <a
+                  href="https://animixplay.to/anime/42249/Tokyo_Revengers"
+                  class="btn btn-outline-success"
+                  tabindex="-1"
+                  role="button"
+                  aria-disabled="true"
+                  >Watch Now</a
+                >
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="images/t.jpg" height="200" height="400" alt="" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="anime2.html
+                ">Back  to the TOp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-dark" href="c.html">Contact Us</a> 
+              </li>
+            
+            
+           
+          </div>
+        </div>
+      </nav>
+    
+  </body>
+</html>
